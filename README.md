@@ -13,9 +13,9 @@ fron anti-scam-toolkit import FUNCTION_NAME
 ## Fonction
 
 **get_firstname(filename)** : 
-> Par default, la fonction vas prendre un nom tirer au hasard dans le fichier [a relative link](names.txt)
+> Par default, la fonction vas prendre un nom tirer au hasard dans le fichier [names](names.txt)
 **get_extension(filename)** : 
-> Permet de tirer au hasard un nom de domaine dans le fichier [a relative link]((extension.txt). 
+> Permet de tirer au hasard un nom de domaine dans le fichier [extension]((extension.txt). 
 **generate_email(firstname,lastname,extension) :
 > Permet de generer une adresse mail, on peut preciser le firstname, lastname ainsi que extension.
 
