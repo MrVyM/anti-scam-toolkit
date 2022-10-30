@@ -3,6 +3,7 @@
 Le principe de ce repository est extremement simple. C'est une bibliotheque dans lequel j'ai devellopé quelques outils afin de pouvoir detruire les bases des scammeurs.
 
 ## Utilisation 
+
 ``` 
 from anti-scam-toolkit import *
 # or 
@@ -10,9 +11,14 @@ fron anti-scam-toolkit import FUNCTION_NAME
 ```
 
 ## Fonction
-**get_firstname(filename)** : 
-Par default, la fonction vas prendre un nom tirer au hasard dans le fichier [a relative link][names.txt]
-**get_extension(filename)** : 
-	Permet de generer un nom de domaine pour une addresse mail. 
 
-> Vous êtes responsable de vos actions.
+**get_firstname(filename)** : 
+> Par default, la fonction vas prendre un nom tirer au hasard dans le fichier [a relative link](names.txt)
+**get_extension(filename)** : 
+> Permet de tirer au hasard un nom de domaine dans le fichier [a relative link]((extension.txt). 
+**generate_email(firstname,lastname,extension) :
+> Permet de generer une adresse mail, on peut preciser le firstname, lastname ainsi que extension.
+
+
+
+# Note : Vous êtes responsable de vos actions.
